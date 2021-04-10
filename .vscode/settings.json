@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "speed_control.h": "c"
+    }
+}

@@ -1,0 +1,10 @@
+<map id="switches.h" name="switches.h">
+<area shape="rect" id="node1" title=" " alt="" coords="203,5,287,32"/>
+<area shape="rect" id="node2" href="$main_8c.html" title=" " alt="" coords="5,80,67,107"/>
+<area shape="rect" id="node3" href="$speed__control_8c.html" title=" " alt="" coords="51,155,165,181"/>
+<area shape="rect" id="node4" href="$swtiches_8c.html" title=" " alt="" coords="142,80,226,107"/>
+<area shape="rect" id="node5" href="$fake__switches_8h.html" title=" " alt="" coords="251,80,365,107"/>
+<area shape="rect" id="node7" href="$speed__control__test_8c.html" title=" " alt="" coords="331,155,474,181"/>
+<area shape="rect" id="node8" href="$switch__test_8c.html" title=" " alt="" coords="440,80,539,107"/>
+<area shape="rect" id="node6" href="$fake__switches_8c.html" title=" " alt="" coords="192,155,307,181"/>
+</map>

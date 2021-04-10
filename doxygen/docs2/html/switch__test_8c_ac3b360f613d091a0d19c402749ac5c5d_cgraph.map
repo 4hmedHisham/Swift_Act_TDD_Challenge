@@ -1,0 +1,9 @@
+<map id="TEST_SETUP" name="TEST_SETUP">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,109,133"/>
+<area shape="rect" id="node2" href="$swtiches_8c.html#adab0ff9bb724ea375fc1d2ce2a8ab4ee" title=" " alt="" coords="157,107,248,133"/>
+<area shape="rect" id="node3" href="$swtiches_8c.html#a837108b0b6125654c9869382dfbd30b7" title="Get the real switch state object." alt="" coords="296,5,491,32"/>
+<area shape="rect" id="node4" href="$swtiches_8c.html#aa965b7d4b27cdc9ca633d5c745d7d5b0" title="Initlaize Negative Switch State." alt="" coords="331,56,455,83"/>
+<area shape="rect" id="node5" href="$swtiches_8c.html#a89b12623deae9ab3b44cb107aec6bfc5" title="Initlaize P Switch State." alt="" coords="338,107,449,133"/>
+<area shape="rect" id="node6" href="$swtiches_8c.html#a7af5ee0aebc5255650b671a5eaa4f5f5" title="Initlaize Positive Switch State." alt="" coords="331,157,455,184"/>
+<area shape="rect" id="node7" href="$swtiches_8c.html#a8c3c5f39d7a7ff140cb371060ec216ae" title="Set the switch state object." alt="" coords="299,208,487,235"/>
+</map>

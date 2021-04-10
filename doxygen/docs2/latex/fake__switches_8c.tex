@@ -1,0 +1,118 @@
+\hypertarget{fake__switches_8c}{}\doxysection{fake\+\_\+switches.\+c File Reference}
+\label{fake__switches_8c}\index{fake\_switches.c@{fake\_switches.c}}
+Include dependency graph for fake\+\_\+switches.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{fake__switches_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{fake__switches_8c_a94d138d6af47a4a43fd0f047c0e94aad}{get\+\_\+duration}} ()
+\begin{DoxyCompactList}\small\item\em Get the duration of p button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fake__switches_8c_a85b958281377fe51c83b9ead1ce23ea8}{set\+\_\+duration}} (int duration)
+\begin{DoxyCompactList}\small\item\em Set the duration of p button. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fake__switches_8c_ac2822f6df5fba90c6ab0a7f92071dcae}{FAKE\+\_\+\+SW\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Intialize fake switches. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}} \mbox{\hyperlink{fake__switches_8c_a6f1acae2d9ffe896064c712b0bbb7dc6}{FAKE\+\_\+\+SW\+\_\+get\+Sw\+State}} (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}} sw)
+\begin{DoxyCompactList}\small\item\em get a certain switch state , the certain switch type is provided by \char`\"{}sw\char`\"{} variable \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fake__switches_8c_a748d94e1513505205256e38d3a72a43d}{FAKE\+\_\+\+SW\+\_\+set\+Sw\+State}} (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}} type, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}} state)
+\begin{DoxyCompactList}\small\item\em Sets a certain switch state by adding it as a \char`\"{}type\char`\"{} variable and then addint the state as a second variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}($\ast$ \mbox{\hyperlink{fake__switches_8c_a912e81d473a062a515a2bb480c95f18f}{SWITCH\+\_\+get\+Sw\+State}} )(\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}})
+\item 
+void($\ast$ \mbox{\hyperlink{fake__switches_8c_a758d87e6530a781e250fd66ca767491d}{SWITCH\+\_\+set\+Sw\+State}} )(\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}})
+\item 
+void($\ast$ \mbox{\hyperlink{fake__switches_8c_adb84ddf5758e565069fa1d6b134522bd}{SWITCH\+\_\+init}} )(void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{fake__switches_8c_a94d138d6af47a4a43fd0f047c0e94aad}\label{fake__switches_8c_a94d138d6af47a4a43fd0f047c0e94aad}} 
+\index{fake\_switches.c@{fake\_switches.c}!get\_duration@{get\_duration}}
+\index{get\_duration@{get\_duration}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{get\_duration()}{get\_duration()}}
+{\footnotesize\ttfamily int get\+\_\+duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the duration of p button. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fake__switches_8c_a85b958281377fe51c83b9ead1ce23ea8}\label{fake__switches_8c_a85b958281377fe51c83b9ead1ce23ea8}} 
+\index{fake\_switches.c@{fake\_switches.c}!set\_duration@{set\_duration}}
+\index{set\_duration@{set\_duration}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{set\_duration()}{set\_duration()}}
+{\footnotesize\ttfamily void set\+\_\+duration (\begin{DoxyParamCaption}\item[{int}]{duration }\end{DoxyParamCaption})}
+
+
+
+Set the duration of p button. 
+
+\mbox{\Hypertarget{fake__switches_8c_ac2822f6df5fba90c6ab0a7f92071dcae}\label{fake__switches_8c_ac2822f6df5fba90c6ab0a7f92071dcae}} 
+\index{fake\_switches.c@{fake\_switches.c}!FAKE\_SW\_init@{FAKE\_SW\_init}}
+\index{FAKE\_SW\_init@{FAKE\_SW\_init}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{FAKE\_SW\_init()}{FAKE\_SW\_init()}}
+{\footnotesize\ttfamily void FAKE\+\_\+\+SW\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Intialize fake switches. 
+
+\mbox{\Hypertarget{fake__switches_8c_a6f1acae2d9ffe896064c712b0bbb7dc6}\label{fake__switches_8c_a6f1acae2d9ffe896064c712b0bbb7dc6}} 
+\index{fake\_switches.c@{fake\_switches.c}!FAKE\_SW\_getSwState@{FAKE\_SW\_getSwState}}
+\index{FAKE\_SW\_getSwState@{FAKE\_SW\_getSwState}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{FAKE\_SW\_getSwState()}{FAKE\_SW\_getSwState()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}} FAKE\+\_\+\+SW\+\_\+get\+Sw\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{sw }\end{DoxyParamCaption})}
+
+
+
+get a certain switch state , the certain switch type is provided by \char`\"{}sw\char`\"{} variable 
+
+\begin{DoxyReturn}{Returns}
+SWITCH\+\_\+\+STATE\+\_\+t 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fake__switches_8c_a748d94e1513505205256e38d3a72a43d}\label{fake__switches_8c_a748d94e1513505205256e38d3a72a43d}} 
+\index{fake\_switches.c@{fake\_switches.c}!FAKE\_SW\_setSwState@{FAKE\_SW\_setSwState}}
+\index{FAKE\_SW\_setSwState@{FAKE\_SW\_setSwState}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{FAKE\_SW\_setSwState()}{FAKE\_SW\_setSwState()}}
+{\footnotesize\ttfamily void FAKE\+\_\+\+SW\+\_\+set\+Sw\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{type,  }\item[{\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Sets a certain switch state by adding it as a \char`\"{}type\char`\"{} variable and then addint the state as a second variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+{\em state} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{fake__switches_8c_a912e81d473a062a515a2bb480c95f18f}\label{fake__switches_8c_a912e81d473a062a515a2bb480c95f18f}} 
+\index{fake\_switches.c@{fake\_switches.c}!SWITCH\_getSwState@{SWITCH\_getSwState}}
+\index{SWITCH\_getSwState@{SWITCH\_getSwState}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_getSwState}{SWITCH\_getSwState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}($\ast$ SWITCH\+\_\+get\+Sw\+State) (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}) (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fake__switches_8c_a758d87e6530a781e250fd66ca767491d}\label{fake__switches_8c_a758d87e6530a781e250fd66ca767491d}} 
+\index{fake\_switches.c@{fake\_switches.c}!SWITCH\_setSwState@{SWITCH\_setSwState}}
+\index{SWITCH\_setSwState@{SWITCH\_setSwState}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_setSwState}{SWITCH\_setSwState}}
+{\footnotesize\ttfamily void($\ast$ SWITCH\+\_\+set\+Sw\+State) (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}) (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{,  }\item[{\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fake__switches_8c_adb84ddf5758e565069fa1d6b134522bd}\label{fake__switches_8c_adb84ddf5758e565069fa1d6b134522bd}} 
+\index{fake\_switches.c@{fake\_switches.c}!SWITCH\_init@{SWITCH\_init}}
+\index{SWITCH\_init@{SWITCH\_init}!fake\_switches.c@{fake\_switches.c}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_init}{SWITCH\_init}}
+{\footnotesize\ttfamily void($\ast$ SWITCH\+\_\+init) (void) (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+

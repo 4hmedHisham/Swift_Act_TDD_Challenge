@@ -1,0 +1,7 @@
+<map id="TEST_GROUP_RUNNER" name="TEST_GROUP_RUNNER">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,175,83"/>
+<area shape="rect" id="node2" href="$speed__control_8c.html#ac5c54df7ed3b930268c8d7752c101725" title="Update/Tick function that progresses time and check the values to set in the speed/motor angle." alt="" coords="223,56,284,83"/>
+<area shape="rect" id="node3" href="$fake__switches_8c.html#a94d138d6af47a4a43fd0f047c0e94aad" title="Get the duration of p button." alt="" coords="332,5,425,32"/>
+<area shape="rect" id="node4" href="$speed__control_8c.html#a9a6ff610ea9c0e09854e5d97eb7bdd65" title="Get the speed object." alt="" coords="337,56,420,83"/>
+<area shape="rect" id="node5" href="$speed__control_8c.html#a37b5428158dc44adee45e69f0afb305d" title="Set the speed object." alt="" coords="337,107,420,133"/>
+</map>

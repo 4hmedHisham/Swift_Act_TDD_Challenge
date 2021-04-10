@@ -1,0 +1,19 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,56,209"/>
+<area shape="rect" id="node2" href="$main_8c.html#a0733a029032379b9e74c6242baefe5ca" title=" " alt="" coords="104,81,196,108"/>
+<area shape="rect" id="node7" href="$speed__control_8c.html#a5c182a96c509bd50c298a218c7af05f6" title="Initalize Speed With Medium." alt="" coords="109,157,191,184"/>
+<area shape="rect" id="node8" href="$swtiches_8c.html#adab0ff9bb724ea375fc1d2ce2a8ab4ee" title=" " alt="" coords="105,208,195,235"/>
+<area shape="rect" id="node14" href="$unity__fixture_8c.html#a58ec279183697abbd5d3efea3442d4e5" title=" " alt="" coords="110,360,190,387"/>
+<area shape="rect" id="node3" href="$speed__control_8c.html#ac5c54df7ed3b930268c8d7752c101725" title="Update/Tick function that progresses time and check the values to set in the speed/motor angle." alt="" coords="314,56,375,83"/>
+<area shape="rect" id="node4" href="$fake__switches_8c.html#a94d138d6af47a4a43fd0f047c0e94aad" title="Get the duration of p button." alt="" coords="493,5,587,32"/>
+<area shape="rect" id="node5" href="$speed__control_8c.html#a9a6ff610ea9c0e09854e5d97eb7bdd65" title="Get the speed object." alt="" coords="499,56,581,83"/>
+<area shape="rect" id="node6" href="$speed__control_8c.html#a37b5428158dc44adee45e69f0afb305d" title="Set the speed object." alt="" coords="499,107,581,133"/>
+<area shape="rect" id="node9" href="$swtiches_8c.html#a837108b0b6125654c9869382dfbd30b7" title="Get the real switch state object." alt="" coords="247,107,442,133"/>
+<area shape="rect" id="node10" href="$swtiches_8c.html#aa965b7d4b27cdc9ca633d5c745d7d5b0" title="Initlaize Negative Switch State." alt="" coords="283,157,407,184"/>
+<area shape="rect" id="node11" href="$swtiches_8c.html#a89b12623deae9ab3b44cb107aec6bfc5" title="Initlaize P Switch State." alt="" coords="289,208,400,235"/>
+<area shape="rect" id="node12" href="$swtiches_8c.html#a7af5ee0aebc5255650b671a5eaa4f5f5" title="Initlaize Positive Switch State." alt="" coords="283,259,407,285"/>
+<area shape="rect" id="node13" href="$swtiches_8c.html#a8c3c5f39d7a7ff140cb371060ec216ae" title="Set the switch state object." alt="" coords="251,309,439,336"/>
+<area shape="rect" id="node15" href="$unity_8c.html#aed50601fbdaea8fc0fef0c61cf877809" title=" " alt="" coords="302,360,387,387"/>
+<area shape="rect" id="node16" href="$unity__fixture_8c.html#a898356b51b63100ec321e05d2e5f2d55" title=" " alt="" coords="244,411,445,437"/>
+<area shape="rect" id="node17" href="$unity_8c.html#accff2eb4cfd0273e8ad62c37639d3e3c" title=" " alt="" coords="501,411,579,437"/>
+</map>

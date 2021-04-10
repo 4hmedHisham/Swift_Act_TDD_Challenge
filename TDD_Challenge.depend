@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1614712866 source:c:\users\ahmed\desktop\tdd\tdd_challenge\source\motor_driver\something.c
+
+1614712866 source:c:\users\ahmed\desktop\tdd\tdd_challenge\source\speed_control\something.c
+
+1614712866 source:c:\users\ahmed\desktop\tdd\tdd_challenge\source\swtich_driver\something.c
+
+1577326492 source:c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1577326492 c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity.h
+	"unity_internals.h"
+
+1577326492 c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1577326492 source:c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity_fixture.c
+	"unity_fixture.h"
+	"unity_internals.h"
+	<string.h>
+
+1578842215 c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity_fixture.h
+	"unity.h"
+	"unity_internals.h"
+	"unity_fixture_internals.h"
+	"unity_memory.h"
+
+1577326492 c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity_fixture_internals.h
+
+1577326492 c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity_memory.h
+	<stddef.h>
+	<stdlib.h>
+
+1577326492 source:c:\users\ahmed\desktop\tdd\tdd_challenge\test\unity\unity_memory.c
+	"unity.h"
+	"unity_memory.h"
+	<string.h>
+	<stdlib.h>
+
+1615134357 source:c:\users\ahmed\desktop\tdd\tdd_challenge\source\speed_control\speed_control.c
+	"speed_control.h"
+	<stdio.h>
+	"../../test/fakse_switch/fake_switches.h"
+	<stdbool.h>
+	"../swtich_driver/switches.h"
+
+1614978842 c:\users\ahmed\desktop\tdd\tdd_challenge\source\speed_control\speed_control.h
+
+1615134764 source:c:\users\ahmed\desktop\tdd\tdd_challenge\source\main.c
+	<stdio.h>
+	<stdlib.h>
+	"swtich_driver/switches.h"
+	"../test/unity/unity_fixture.h"
+
+1614779979 source:c:\users\ahmed\desktop\tdd\tdd_challenge\test\switch\switch_test.c
+	"../../source/swtich_driver/switches.h"
+	"../unity/unity_fixture.h"
+
+1615132824 c:\users\ahmed\desktop\tdd\tdd_challenge\source\swtich_driver\switches.h
+
+1615134673 source:c:\users\ahmed\desktop\tdd\tdd_challenge\source\swtich_driver\swtiches.c
+	"switches.h"
+
+1614781162 source:c:\users\ahmed\desktop\tdd\tdd_challenge\test\fakse_switch\switch_test.c
+	"../../source/swtich_driver/switches.h"
+	"../unity/unity_fixture.h"
+
+1615133489 source:c:\users\ahmed\desktop\tdd\tdd_challenge\test\speed_control\speed_control_test.c
+	"../../source/speed_control/speed_control.h"
+	"../unity/unity_fixture.h"
+	"../fakse_switch/fake_switches.h"
+	"../../source/swtich_driver/switches.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1615135871 source:c:\users\ahmed\desktop\tdd\tdd_challenge\test\fakse_switch\fake_switches.c
+	"fake_switches.h"
+
+1615135996 c:\users\ahmed\desktop\tdd\tdd_challenge\test\fakse_switch\fake_switches.h
+	"../../source/swtich_driver/switches.h"
+

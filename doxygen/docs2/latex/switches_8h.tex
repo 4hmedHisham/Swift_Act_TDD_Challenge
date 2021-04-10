@@ -1,0 +1,177 @@
+\hypertarget{switches_8h}{}\doxysection{switches.\+h File Reference}
+\label{switches_8h}\index{switches.h@{switches.h}}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{switches_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}} \{ \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7ae07e75c91d96406b9a19d47ac31518e9}{SW\+\_\+\+PRESSED}}
+, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7aa6ecace857f42b47cc7d19d25087caf3}{SW\+\_\+\+RELEASED}}
+, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7acec9a303122b07b05c04bc8c8edcbb67}{SW\+\_\+\+PRE\+\_\+\+RELEASED}}
+, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7a5356b3d4a45e0dd039e547d132079467}{SW\+\_\+\+PRE\+\_\+\+PRESSED}}
+ \}
+\item 
+enum \mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}} \{ \mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a6fcf6a44eeee46cc0e15d6f0300da3c8}{pos}}
+, \mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a6e2d060111a711f5536aee454a4386d2}{neg}}
+, \mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a188032b3e6837794e08d485d4426f1bb}{p}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{switches_8h_abb175273ffbcf235f1542032b14cda4c}{pos\+\_\+\+SWITCH\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Initlaize Positive Switch State. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{switches_8h_a6a276dde10d161df96968690b9805064}{neg\+\_\+\+SWITCH\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Initlaize Negative Switch State. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{switches_8h_aaebd96426c2a343cdff292f1ff32cbc8}{p\+\_\+\+SWITCH\+\_\+init}} (void)
+\begin{DoxyCompactList}\small\item\em Initlaize P Switch State. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{switches_8h_a2df2c2bf401b136b98c90b3874c4740b}{Set\+\_\+\+REAL\+\_\+\+SWITCH\+\_\+\+STATE}} (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}} SW\+\_\+\+TYPE, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}} state)
+\begin{DoxyCompactList}\small\item\em Set the switch state object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}} \mbox{\hyperlink{switches_8h_a16019f85a47fa0c54e1d861c1e5d8d87}{GET\+\_\+\+REAL\+\_\+\+SWITCH\+\_\+\+STATE}} (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}})
+\begin{DoxyCompactList}\small\item\em Get the real switch state object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}($\ast$ \mbox{\hyperlink{switches_8h_a912e81d473a062a515a2bb480c95f18f}{SWITCH\+\_\+get\+Sw\+State}} )(\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}})
+\item 
+void($\ast$ \mbox{\hyperlink{switches_8h_a758d87e6530a781e250fd66ca767491d}{SWITCH\+\_\+set\+Sw\+State}} )(\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}})
+\item 
+void($\ast$ \mbox{\hyperlink{switches_8h_adb84ddf5758e565069fa1d6b134522bd}{SWITCH\+\_\+init}} )(void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{switches_8h_add2c37d13e3ac54d516471310b237ac7}\label{switches_8h_add2c37d13e3ac54d516471310b237ac7}} 
+\index{switches.h@{switches.h}!SWITCH\_STATE\_t@{SWITCH\_STATE\_t}}
+\index{SWITCH\_STATE\_t@{SWITCH\_STATE\_t}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_STATE\_t}{SWITCH\_STATE\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SW\_PRESSED@{SW\_PRESSED}!switches.h@{switches.h}}\index{switches.h@{switches.h}!SW\_PRESSED@{SW\_PRESSED}}}\mbox{\Hypertarget{switches_8h_add2c37d13e3ac54d516471310b237ac7ae07e75c91d96406b9a19d47ac31518e9}\label{switches_8h_add2c37d13e3ac54d516471310b237ac7ae07e75c91d96406b9a19d47ac31518e9}} 
+SW\+\_\+\+PRESSED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SW\_RELEASED@{SW\_RELEASED}!switches.h@{switches.h}}\index{switches.h@{switches.h}!SW\_RELEASED@{SW\_RELEASED}}}\mbox{\Hypertarget{switches_8h_add2c37d13e3ac54d516471310b237ac7aa6ecace857f42b47cc7d19d25087caf3}\label{switches_8h_add2c37d13e3ac54d516471310b237ac7aa6ecace857f42b47cc7d19d25087caf3}} 
+SW\+\_\+\+RELEASED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SW\_PRE\_RELEASED@{SW\_PRE\_RELEASED}!switches.h@{switches.h}}\index{switches.h@{switches.h}!SW\_PRE\_RELEASED@{SW\_PRE\_RELEASED}}}\mbox{\Hypertarget{switches_8h_add2c37d13e3ac54d516471310b237ac7acec9a303122b07b05c04bc8c8edcbb67}\label{switches_8h_add2c37d13e3ac54d516471310b237ac7acec9a303122b07b05c04bc8c8edcbb67}} 
+SW\+\_\+\+PRE\+\_\+\+RELEASED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SW\_PRE\_PRESSED@{SW\_PRE\_PRESSED}!switches.h@{switches.h}}\index{switches.h@{switches.h}!SW\_PRE\_PRESSED@{SW\_PRE\_PRESSED}}}\mbox{\Hypertarget{switches_8h_add2c37d13e3ac54d516471310b237ac7a5356b3d4a45e0dd039e547d132079467}\label{switches_8h_add2c37d13e3ac54d516471310b237ac7a5356b3d4a45e0dd039e547d132079467}} 
+SW\+\_\+\+PRE\+\_\+\+PRESSED&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}\label{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}} 
+\index{switches.h@{switches.h}!SWITCH\_TYPE@{SWITCH\_TYPE}}
+\index{SWITCH\_TYPE@{SWITCH\_TYPE}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_TYPE}{SWITCH\_TYPE}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{pos@{pos}!switches.h@{switches.h}}\index{switches.h@{switches.h}!pos@{pos}}}\mbox{\Hypertarget{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a6fcf6a44eeee46cc0e15d6f0300da3c8}\label{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a6fcf6a44eeee46cc0e15d6f0300da3c8}} 
+pos&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{neg@{neg}!switches.h@{switches.h}}\index{switches.h@{switches.h}!neg@{neg}}}\mbox{\Hypertarget{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a6e2d060111a711f5536aee454a4386d2}\label{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a6e2d060111a711f5536aee454a4386d2}} 
+neg&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{p@{p}!switches.h@{switches.h}}\index{switches.h@{switches.h}!p@{p}}}\mbox{\Hypertarget{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a188032b3e6837794e08d485d4426f1bb}\label{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82a188032b3e6837794e08d485d4426f1bb}} 
+p&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{switches_8h_abb175273ffbcf235f1542032b14cda4c}\label{switches_8h_abb175273ffbcf235f1542032b14cda4c}} 
+\index{switches.h@{switches.h}!pos\_SWITCH\_init@{pos\_SWITCH\_init}}
+\index{pos\_SWITCH\_init@{pos\_SWITCH\_init}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{pos\_SWITCH\_init()}{pos\_SWITCH\_init()}}
+{\footnotesize\ttfamily void pos\+\_\+\+SWITCH\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initlaize Positive Switch State. 
+
+\mbox{\Hypertarget{switches_8h_a6a276dde10d161df96968690b9805064}\label{switches_8h_a6a276dde10d161df96968690b9805064}} 
+\index{switches.h@{switches.h}!neg\_SWITCH\_init@{neg\_SWITCH\_init}}
+\index{neg\_SWITCH\_init@{neg\_SWITCH\_init}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{neg\_SWITCH\_init()}{neg\_SWITCH\_init()}}
+{\footnotesize\ttfamily void neg\+\_\+\+SWITCH\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initlaize Negative Switch State. 
+
+\mbox{\Hypertarget{switches_8h_aaebd96426c2a343cdff292f1ff32cbc8}\label{switches_8h_aaebd96426c2a343cdff292f1ff32cbc8}} 
+\index{switches.h@{switches.h}!p\_SWITCH\_init@{p\_SWITCH\_init}}
+\index{p\_SWITCH\_init@{p\_SWITCH\_init}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{p\_SWITCH\_init()}{p\_SWITCH\_init()}}
+{\footnotesize\ttfamily void p\+\_\+\+SWITCH\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initlaize P Switch State. 
+
+\mbox{\Hypertarget{switches_8h_a2df2c2bf401b136b98c90b3874c4740b}\label{switches_8h_a2df2c2bf401b136b98c90b3874c4740b}} 
+\index{switches.h@{switches.h}!Set\_REAL\_SWITCH\_STATE@{Set\_REAL\_SWITCH\_STATE}}
+\index{Set\_REAL\_SWITCH\_STATE@{Set\_REAL\_SWITCH\_STATE}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{Set\_REAL\_SWITCH\_STATE()}{Set\_REAL\_SWITCH\_STATE()}}
+{\footnotesize\ttfamily void Set\+\_\+\+REAL\+\_\+\+SWITCH\+\_\+\+STATE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{SW\+\_\+\+TYPE,  }\item[{\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Set the switch state object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em SW\+\_\+\+TYPE} & \\
+\hline
+{\em state} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{switches_8h_a16019f85a47fa0c54e1d861c1e5d8d87}\label{switches_8h_a16019f85a47fa0c54e1d861c1e5d8d87}} 
+\index{switches.h@{switches.h}!GET\_REAL\_SWITCH\_STATE@{GET\_REAL\_SWITCH\_STATE}}
+\index{GET\_REAL\_SWITCH\_STATE@{GET\_REAL\_SWITCH\_STATE}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{GET\_REAL\_SWITCH\_STATE()}{GET\_REAL\_SWITCH\_STATE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}} GET\+\_\+\+REAL\+\_\+\+SWITCH\+\_\+\+STATE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{SW\+\_\+\+TYPE }\end{DoxyParamCaption})}
+
+
+
+Get the real switch state object. 
+
+\begin{DoxyReturn}{Returns}
+SWITCH\+\_\+\+STATE\+\_\+t 
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{switches_8h_a912e81d473a062a515a2bb480c95f18f}\label{switches_8h_a912e81d473a062a515a2bb480c95f18f}} 
+\index{switches.h@{switches.h}!SWITCH\_getSwState@{SWITCH\_getSwState}}
+\index{SWITCH\_getSwState@{SWITCH\_getSwState}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_getSwState}{SWITCH\_getSwState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}($\ast$ SWITCH\+\_\+get\+Sw\+State) (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}) (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+\mbox{\Hypertarget{switches_8h_a758d87e6530a781e250fd66ca767491d}\label{switches_8h_a758d87e6530a781e250fd66ca767491d}} 
+\index{switches.h@{switches.h}!SWITCH\_setSwState@{SWITCH\_setSwState}}
+\index{SWITCH\_setSwState@{SWITCH\_setSwState}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_setSwState}{SWITCH\_setSwState}}
+{\footnotesize\ttfamily void($\ast$ SWITCH\+\_\+set\+Sw\+State) (\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}, \mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}) (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{switches_8h_a41273fdeb63230b3a5c360d8c7c11b82}{SWITCH\+\_\+\+TYPE}}}]{,  }\item[{\mbox{\hyperlink{switches_8h_add2c37d13e3ac54d516471310b237ac7}{SWITCH\+\_\+\+STATE\+\_\+t}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+\mbox{\Hypertarget{switches_8h_adb84ddf5758e565069fa1d6b134522bd}\label{switches_8h_adb84ddf5758e565069fa1d6b134522bd}} 
+\index{switches.h@{switches.h}!SWITCH\_init@{SWITCH\_init}}
+\index{SWITCH\_init@{SWITCH\_init}!switches.h@{switches.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_init}{SWITCH\_init}}
+{\footnotesize\ttfamily void($\ast$ SWITCH\+\_\+init) (void) (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
